@@ -1,3 +1,167 @@
-.container {
-	width: 40px;
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
 }
+
+/*Global*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+button_1{
+	height: 38px;
+	background: #000;
+	border:0;
+	padding-left:20px;
+	padding-right: 20px;
+	color: blueviolet;
+}
+
+/*Header**/
+
+header {
+	background-color: #35424a;
+	color: green;
+	padding: 30px 20px;
+	min-height:40px;
+	border-bottom:2px solid gray ;
+}
+header #branding {
+	float: left;
+}
+header #branding h1 {
+	margin: 0;
+}
+header #branding h1 .highlight{
+	color: antiquewhite;
+	font: bold;
+}
+header nav {
+	float: right;
+	
+}
+header nav ul{
+list-style-type: none;	
+}
+header nav ul li{
+	display: inline;
+}
+header nav ul li a {
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	
+}
+header nav ul li a:hover{
+	color: aquamarine;
+}
+
+
+/* header a {
+	color: blue;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: float;
+	display: inline;
+	padding: 0 20px 0 20px;
+} */
+
+
+
+
+
+
+/* header .highlight,
+header .current a {
+	color: blanchedalmond;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: red;
+	font-weight: bold;
+} */
+
+/*showcase*/
+#showcase {
+	min-height: 400px;
+	background: ;
+	text-align: center;
+	color: aqua;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+#newsletter {
+	padding: 15px;
+	color: blueviolet;
+	background: ;
+}
+
+#newsletter h1 {
+	float: left;
+}
+
+#newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input{type="email"}
+{
+	padding:4;
+	height:25PX;
+	width:250px;
+}
+
+/*Boxes*/	
+#boxes{
+	margin-top: 20px;
+
+}
+#boxes .box{
+	float:left;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+
+#boxes .box img{
+	width:90px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: palevioletred;
+	background-color: aqua;
+	text-align:center;
+}
+
