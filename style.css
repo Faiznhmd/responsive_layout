@@ -31,6 +31,14 @@ button_1{
 	color: blueviolet;
 }
 
+.dark{
+	padding: 15px;
+	background-color: blue;
+	color: yellow;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
 /*Header**/
 
 header {
@@ -155,6 +163,20 @@ header a:hover {
 
 #boxes .box img{
 	width:90px;
+}
+
+/*sidebar*/
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top: 10px;
+
+}
+
+/*main-col*/
+article#main-col{
+	float: left;
+	width: 65%;
 }
 
 footer{
