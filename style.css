@@ -1,7 +1,8 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 1.5;
+	background-color: aliceblue;
 }
 
 /*Global*/
@@ -15,9 +16,30 @@ body {
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
+	color: black;
 }
 
-ul {
+
+/*header**/
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: green 10px solid;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ul {
 	margin: 0;
 	padding: 0;
 }
@@ -41,9 +63,9 @@ button_1{
 
 /*Header**/
 
-header {
-	background-color: #35424a;
-	color: green;
+/* header {
+	background-color:pink ;
+	color: blueviolet;
 	padding: 30px 20px;
 	min-height:40px;
 	border-bottom:2px solid gray ;
@@ -59,9 +81,9 @@ header #branding h1 .highlight{
 	font: bold;
 }
 header nav {
-	float: right;
+	float: right; */
 	
-}
+/* }
 header nav ul{
 list-style-type: none;	
 }
@@ -81,7 +103,7 @@ header nav ul li a:hover{
 }
 
 
-/* header a {
+header a {
 	color: blue;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -104,57 +126,47 @@ header li {
 
 
 
-/* header .highlight,
-header .current a {
-	color: blanchedalmond;
-	font-weight: bold;
-}
+ 
 
-header a:hover {
+/* header a:hover {
 	color: red;
 	font-weight: bold;
 } */
 
-/*showcase*/
-#showcase {
-	min-height: 400px;
-	background: ;
-	text-align: center;
-	color: aqua;
-}
+ 
 
-#showcase p {
+/* #showcase p {
 	font-size: 20px;
-}
+} */
 
-#newsletter {
+/* #newsletter {
 	padding: 15px;
 	color: blueviolet;
 	background: ;
-}
-
+} */
+/* 
 #newsletter h1 {
 	float: left;
-}
+} */
 
-#newsletter form {
+/* #newsletter form {
 	float: right;
 	margin-top: 15px;
-}
+} */
 
-#newsletter input{type="email"}
+/* #newsletter input{type="email"}
 {
 	padding:4;
 	height:25PX;
 	width:250px;
 }
 
-/*Boxes*/	
+	Boxes
 #boxes{
 	margin-top: 20px;
+} */
 
-}
-#boxes .box{
+/* #boxes .box{
 	float:left;
 	width: 30%;
 	text-align: center;
@@ -163,27 +175,27 @@ header a:hover {
 
 #boxes .box img{
 	width:90px;
-}
-
-/*sidebar*/
+} */
+/* 
+sidebar
 aside#sidebar{
 	float:right;
 	width:30%;
 	margin-top: 10px;
 
-}
+} 
 
-/*main-col*/
+/* main-col
 article#main-col{
 	float: left;
 	width: 65%;
-}
+} */
 
-footer{
+/* footer{
 	padding: 20px;
 	margin-top: 20px;
 	color: palevioletred;
 	background-color: aqua;
 	text-align:center;
-}
+} */ */ */
 
